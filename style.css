@@ -44,3 +44,22 @@ h2 + h3 {
     background-color: gray;
 }
 
+/*kolejny potomny + dla safari*/
+#nastepny ul li:nth-child(8),
+#nastepny ul li:nth-of-type(8){
+    background-color: violet;
+}
+
+#nastepny ul li:nth-child(odd) {
+    background-color: blueviolet;
+}
+/*trzeci element i skaczemy co trzeci*/
+
+#nastepny ul li:nth-child(3n+n) {
+ background-color: aqua;
+}
+
+/**/
+#nastepny ul li:nth-child(4n+2) {
+    font-size: 26px;
+}
